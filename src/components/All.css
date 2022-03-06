@@ -115,12 +115,12 @@ nav .logo{
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .Card__box{
-    margin:0px;
+    margin-bottom:20px;
     padding: 20px 10px;
     border: 2px solid #222933;
     width: 300px;
