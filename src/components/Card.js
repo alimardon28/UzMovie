@@ -4,7 +4,7 @@ const Card = () => {
     return (
         <>
         <div className='Card__box'>
-            <img src='' className='movieImg'/>
+            <img src='' alt='movie img' className='movieImg'/>
             <div className='uzMovieDetailes'>
                <div className='movie__box'>
                    <h4>Movie</h4>
