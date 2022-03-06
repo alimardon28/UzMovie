@@ -49,7 +49,7 @@ const getData=(movieType)=>{
 }
 
 const searchMovie =(evt) =>{
-    if(evt.key=="Enter")
+    if(evt.key==="Enter")
     {
        url=base_url+"/search/movie?api_key=db95773a7fb212ba790d71f6adac0e7e&query="+search;
        setUrl(url);
@@ -83,7 +83,7 @@ const searchMovie =(evt) =>{
 
         <div className='container'>
             {
-                (movieData.length==0)?<p className='desc'>Not Found</p>: movieData.map((res,pos)=>{
+                (movieData.length===0)?<p className='desc'>Not Found</p>: movieData.map((res,pos)=>{
                   return (
                       <Card info={res} key={pos} />
                   )

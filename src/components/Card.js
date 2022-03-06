@@ -2,7 +2,6 @@ import React from 'react';
 import img from '../components/assets/img/new_icons.gif'
 
 const Card = (movie) => {
-  console.log(movie);
     let img_path = "https://image.tmdb.org/t/p/w500";
     return (
         <div className='cardUzMovie'>
