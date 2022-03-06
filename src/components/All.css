@@ -12,6 +12,13 @@ body{
     background-color: #161D25;
 }
 
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .main{
     margin-top:95px;
     padding:0;
@@ -141,8 +148,11 @@ nav .logo{
 }
 
 .uzMovieDetailes .movie__box{
-   margin: 0;
+   margin:0px;
    padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 
 .uzMovieDetailes .movie__box h4{
@@ -151,7 +161,7 @@ nav .logo{
     margin: 0;
     padding: 0;
     color: #8491a5;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .uzMovieDetailes .movie__box p{
@@ -161,4 +171,11 @@ nav .logo{
     color: #fff;
     font-weight: bold;
     display: inline-block;
+}
+
+.iconsImg{
+    padding: 0;
+    float: right;
+    width: 28px;
+    height: 13px;
 }
