@@ -1,9 +1,11 @@
 import React from 'react';
+import logo from '../components/assets/img/logo.gif'
 
 const Main = () => {
     return (
         <div className='main'>
              <nav>
+                <img  className='logo' src={logo} alt="uzmovie logo"/>
                  <ul>
                      <li><a href='/'>Popular</a></li>
                      <li><a href='/'>Theatre</a></li>
@@ -13,10 +15,10 @@ const Main = () => {
                  </ul>
              </nav>
 
-             <form>
+             <form className='form'>
                  <div className='search__box'>
                     <input type='text' placeholder='UzMovie Search...' className='input' />
-                    <button>Add</button>
+                    <button className='movie__btn'>Add</button>
                  </div>
              </form>
         </div>
