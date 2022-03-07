@@ -66,7 +66,7 @@ const searchMovie =(evt) =>{
                      {
                       arr.map((value , pos) => {
                              return(
-                                 <li><a key={pos} onClick={(e) => {getData(e.target.name)}} name={value}>{value}</a></li>
+                                 <li><a href={href} key={pos} onClick={(e) => {getData(e.target.name)}} name={value}>{value}</a></li>
                              )
                          })
                      }
